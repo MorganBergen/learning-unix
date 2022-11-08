@@ -1,5 +1,7 @@
 # learning unix
 
+`open Documents/morgan/books/unix.pdf`
+
 <img width="128" align="right" alt="AppIcon" src="https://user-images.githubusercontent.com/65584733/200620956-10bed40e-746a-41c5-8881-2fdf19f61638.png">
 
 <img width="128" align="right" alt="Terminal" src="https://user-images.githubusercontent.com/65584733/200620973-bdc622a1-fd62-414e-a3b0-30d0783a3677.png">
