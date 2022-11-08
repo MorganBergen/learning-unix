@@ -1,6 +1,6 @@
-# learning unix
+# learning unix  
 
-`open Documents/morgan/books/unix.pdf`
+`open Documents/morgan/books/unix.pdf` 
 
 <img width="128" align="right" alt="AppIcon" src="https://user-images.githubusercontent.com/65584733/200620956-10bed40e-746a-41c5-8881-2fdf19f61638.png">
 
@@ -65,6 +65,7 @@ origin	https://github.com/MorganBergen/learning-unix.git (push)
 ~/Documents/GitHub/learning-unix master !1                     09:27:46 AM
 ```
 
+<img width="30%" align="center" alt="book" src="https://user-images.githubusercontent.com/65584733/200623785-ea1cc479-a9d5-495c-b4ac-c3b517829d5c.jpg"> 
 
 
 
