@@ -1,5 +1,10 @@
 # learning unix
 
+<img width="128" align="right" alt="AppIcon" src="https://user-images.githubusercontent.com/65584733/200620956-10bed40e-746a-41c5-8881-2fdf19f61638.png">
+
+<img width="128" align="right" alt="Terminal" src="https://user-images.githubusercontent.com/65584733/200620973-bdc622a1-fd62-414e-a3b0-30d0783a3677.png">
+
+
 this will be a collection of notes and command listings for learning the unix operating system.  in general an operating system is simply a set of programs that control a computer.  some other operating systems such as microsoft windows and macos are designed for certain types of hardware, however unix runs on almost any kind and if you learn unix you will be able to use many kinds of computers without having to learn an entirely new operating system.
 
 unix doesnt have a windowing system, instead it uses a text based interface, which has a higher learning curve, but is much more flexible and powerful.  the **interfaces to unix** was originally used on typerwriter-like terminals, from a shell prompt on a command line.  
@@ -33,14 +38,9 @@ apple's macOS command line tool.
 
 An apple app that provides a command line to enter commands for macOS (Macintosh Operating System) to perform.  Terminal is a type of program called a "Terminal Emulator" commonly found on UNIX-based computers.  A terminal emulator also knon as a terminal application is a computer program that emulates (copies) a video terminal within some other display architecture.  Umulate is meant to reproduce or copy a function or action of a software system.  A terminal emulator is  synonymous with shell, text terminal, or terminal application.  
 
-
-
-
 ### guide of zshrc
 
 [link](https://medium.com/featurepreneur/guide-to-iterm2-46cd4625d55a)
-
-
 
 ### git and github
 
