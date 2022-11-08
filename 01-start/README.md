@@ -1,8 +1,5 @@
 # start here
 
-[]: # Language: markdown
-[]: # Path: README.md
-
 **summary**
 
 - Working with the unix enviroment
@@ -107,8 +104,29 @@ command [option(s)] [filename(s)]
 
 There isn't a single set of rules for writing unix commands and arguments, however these are the general rules.
 
+### general rules for writing unix commands
+
 1.  enter commands in lowercase
 2.  separate commands and arguments with spaces
 3.  _options_ modify the way in whcih the command works.  Options are often single letters prefixed with a dash/hyphen/minus `-` and set off by any number of spaces or tabs.  Multiple options in one command line can be set off individually such as `-a -b` or `-ab`.  Some commands have options made from complete words such as `--help` or `--delete` or `--confirm-delete`.  When you enter a command line you can use this option style, the single-letter option, or both.
 
+4.  The argument `filename` is the name of a file that you want to use.  Most unix programs also accept multiple filenames, separated by spaces.  If you don't enter a filename correctly, you may get the following...
 
+```cli
+❯ open askjdhasd.pdf
+The file /Users/owner/askjdhasd.pdf does not exist.
+```
+
+5.  You must type spaces between commands, options, and filenames.
+
+6.  You can use the `tab` key to complete filenames.  If you type the first few letters of a filename and then press the `tab` key, the shell will complete the filename for you.  If there is more than one filename that matches the letters you've typed, the shell will display a list of possible filenames.  You can then type more letters to narrow down the list or press the `tab` key again to see the next list of filenames.
+
+7.  Options come before filename
+
+## types of commands
+
+- some unix programs work only with window systems such as `open -a Safari`
+
+- You control program from the unix command line by typing arguments from a shell prompt before you start running the program.  After you start the program you want to wait for it to finish and you generally don't want to interact with it.  
+
+- Some unix programs that work in terminals have commands of their own such as `zsh` shell.
