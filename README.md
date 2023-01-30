@@ -67,6 +67,46 @@ origin	https://github.com/MorganBergen/learning-unix.git (push)
 
 <img width="30%" align="center" alt="book" src="https://user-images.githubusercontent.com/65584733/200623785-ea1cc479-a9d5-495c-b4ac-c3b517829d5c.jpg"> 
 
+## nvim commands
 
+how to search in a document?
 
+```
+: / search term
+```
 
+how to search and replace in a document?
+
+```
+To find and replace a word in Neovim, you can use the :%s/old-word/new-word/g command. This will search for the string old-word in the entire document and replace it with new-word.
+
+Here's an example of how you would use this command:
+
+Open a file in Neovim.
+Press Esc to enter Normal mode.
+Type :%s/old-word/new-word/g and press Enter.
+This will find and replace all occurrences of old-word with new-word in the entire document. If you want to only search for and replace a word in a specific range of lines, you can use a range before the s command. For example, :5,10s/old-word/new-word/g will find and replace old-word with new-word only in lines 5 through 10.
+
+You can also use the :%s/old-word/new-word/gc command to perform a search and replace operation that prompts you for confirmation before replacing each occurrence.
+
+:%s/search term/replace term/g
+```
+
+how to move from highlighted found term to highlighted found term?
+
+```
+n
+```
+
+how to exit out of search from the highlighted search term?
+
+```
+: nohl
+```
+
+show color pallette
+
+```
+for i in {0..255}; do print -Pn "%K{$i}  %k%F{$i}${(l:3::0:)i}%f " ${${(M)$((i%6)):#3}:+$'\n'}; done
+
+```
