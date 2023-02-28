@@ -110,3 +110,9 @@ show color pallette
 for i in {0..255}; do print -Pn "%K{$i}  %k%F{$i}${(l:3::0:)i}%f " ${${(M)$((i%6)):#3}:+$'\n'}; done
 
 ```
+
+how to split and see the same file in two different windows?
+
+```
+: split
+```
