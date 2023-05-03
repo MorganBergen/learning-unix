@@ -6,7 +6,6 @@
 
 <img width="128" align="right" alt="Terminal" src="https://user-images.githubusercontent.com/65584733/200620973-bdc622a1-fd62-414e-a3b0-30d0783a3677.png">
 
-
 this will be a collection of notes and command listings for learning the unix operating system.  in general an operating system is simply a set of programs that control a computer.  some other operating systems such as microsoft windows and macos are designed for certain types of hardware, however unix runs on almost any kind and if you learn unix you will be able to use many kinds of computers without having to learn an entirely new operating system.
 
 unix doesnt have a windowing system, instead it uses a text based interface, which has a higher learning curve, but is much more flexible and powerful.  the **interfaces to unix** was originally used on typerwriter-like terminals, from a shell prompt on a command line.  
@@ -115,4 +114,33 @@ how to split and see the same file in two different windows?
 
 ```
 : split
+```
+
+how to fold a block of code in neovim?
+
+- `zi` command to toggle the folding of code blocks.
+- `zf` followed by a motion command to define the end of the block. 
+- `zf20j` would fold the current line plus the next 20 lines.
+- `za` to unfold a block of code
+
+You can also use zR to unfold all code blocks in the buffer, and zM to fold all code blocks.
+
+
+❯ ecdsa
+
+  . Seeding the random number generator... ok
+  . Generating key pair... ok (key size: 192 bits)
+  + Public key: 04BC68A0E4A916012C1B05097D15C55E240611AAECEEE620D3D848F946561C2378AE6DDB624E917AC96359B6D3416CA316
+  . Computing message hash... ok
+  + Hash: 02F4CCF09D1F5740E28864C430F866B46B697646D376E7813D12B873DBE16CC6
+  . Signing message hash... ok (signature length = 55)
+  + Signature: 3035021900C22A2BF2946394DCBB3D5B3825793F8C9AAA6CDB72B97D4202181BABF48C12D9D9FB86AB5D60EAC2AE271D0E0064F5EA3D3D
+  . Preparing verification context... ok
+  . Verifying signature... ok
+
+
+-  how to connect to the internet 
+
+```
+ping -c 1 google.com >/dev/null 2>&1 && echo "You are connected to the internet" || echo "You are not connected to the internet"
 ```
