@@ -1,3 +1,9 @@
+--  clipboard integration
+--  linux or unix operating system arent they the same?
+if vim.fn.has('unix') == 1 and (vim.fn.executable('xclip') == 1 or vim.fn.executable('xsel') == 1) then
+    vim.o.clipboard = "unnamedplus"
+end
+
 vim.opt.nu = true
 vim.opt.relativenumber = false
 vim.opt.tabstop = 4
@@ -53,8 +59,5 @@ vim.cmd(":colorscheme tokyonight-storm")
 -- vim.cmd(":colorscheme tokyonight-day")
 -- vim.cmd(":colorscheme tokyonight-night")
 -- vim.cmd("set background=light")
-
--- change backgroudn to transparent
--- vim.cmd("set background=transparent")
 
 
