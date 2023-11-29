@@ -1,30 +1,11 @@
 # neovim configuration 
 
-###  contents
-
-1.  [tree](#tree)
-2.  [call tree](#call-tree)
-
-###  call tree
-
-1.  `/nvim/init.nvim`
-
-```lua
-lua require 'init'
-```
-
-2.  `/nvim/lua/init.lua`
-
-```lua
-require('set')
-require('plugins')
-
 
 ```
-
-
-
-###  tree
+❯ cat init.lua
+require("themorgan");
+```
+tree
 ```
 ❯ tree
 .
