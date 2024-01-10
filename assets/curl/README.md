@@ -1,6 +1,6 @@
 #  information guide outside the `curl --manual`
 
-source:  [mastering the curl command line with daniel stenberg]() a command line tool that has existed since 1997
+source:  [mastering the curl command line with daniel stenberg](https://youtu.be/V5vZWHP-RqU?si=8OWbz0sQujLEVr5-) a command line tool that has existed since 1997
 
 ```
                                   _   _ ____  _
