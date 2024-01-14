@@ -1,6 +1,6 @@
 # learning unix  
 
-`open Documents/morgan/books/unix.pdf` 
+all info has been generated from `unix.pdf`, as well as the `man` pages for each command.
 
 <img width="128" align="right" alt="AppIcon" src="https://user-images.githubusercontent.com/65584733/200620956-10bed40e-746a-41c5-8881-2fdf19f61638.png">
 
