@@ -20,7 +20,6 @@ There are many reasons why using the traditional command-line interface is more 
 
 4.  When you learn how to use the command line, you'll be able to use to use the same techniques in order to write _scripts_.  Scripts are programs that automate jobs which you'd have to do manually and repetitively with a window system.
 
-
 <p><a href="https://commons.wikimedia.org/wiki/File:Window_(windowing_system).svg#/media/File:Window_(windowing_system).svg"><img width=30% align"right" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Window_%28windowing_system%29.svg/1200px-Window_%28windowing_system%29.svg.png" alt="Window (windowing system).svg"></a><br>By Shmuel Csaba Otto Traian, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=28861125">Link</a></p>
 
 ### learning objectives
@@ -29,9 +28,57 @@ There are many reasons why using the traditional command-line interface is more 
 - [ ] basic system utility commands to get started with unix
 - [ ] learn how to use the bash shell
 
+### processesing `ps` return values
+
+the following is a snapshot of the processes running on my system with the `ps` command with zsh shell scripting.  
+
+**output**
+
+```zsh
+❯ ps
+  PID TTY           TIME CMD
+38345 ttys000    0:00.38 -zsh
+38356 ttys000    0:00.00 -zsh
+38744 ttys000    0:00.00 -zsh
+38745 ttys000    0:00.00 -zsh
+38747 ttys000    0:00.02 /Users/owner/.cache/gitstatus/gitstatusd-darwin-arm64 -G v1.5.4 -s -1 -u -1 -d
+38803 ttys000    0:16.90 /opt/homebrew/Library/Homebrew/vendor/portable-ruby/current/bin/ruby -W1 --disa
+42560 ttys000    0:02.54 /usr/bin/curl --disable --cookie /dev/null --globoff --show-error --user-agent
+42595 ttys001    0:00.26 -zsh
+42606 ttys001    0:00.00 -zsh
+42608 ttys001    0:00.00 -zsh
+42993 ttys001    0:00.00 -zsh
+42994 ttys001    0:00.00 -zsh
+42996 ttys001    0:00.00 /Users/owner/.cache/gitstatus/gitstatusd-darwin-arm64 -G v1.5.4 -s -1 -u -1 -d
+42997 ttys001    0:00.00 sleep 5
+```
+**column's output breakdown**
+
+| process id `PID` | terminal `TTY` | cpu time `TIME` |  command `CMD` |
+|:----------------:|:--------------:|:---------------:|:--------------:|
+| 38345            | ttys000        | 0:00.38         | -zsh           |
+
+####  process id `PID`
+
+this is a unique identifier assigned to each running process some processes are intentionally encapsulated by the shell or operating system so the programmer doesnt have to worry about low level tasks such as managing resources like memory allocation.
+
+####  terminal `TTY`
+
+####  cpu time `TIME`
+
+####  command `CMD`
+
+### `ps` command flags
+
+| flag | description |
+|:----:|:-----------:|
+| `a`  | display all processes |
+| `u`  | display the processes belonging to the current user |
+| `x`  | display the processes that are not attached to a terminal |
+
 ### terminal shell
 
-apple's macOS command line tool.
+apple's command line tool.
 
 **start here**
 
