@@ -172,7 +172,6 @@ how to fold a block of code in neovim?
 
 You can also use zR to unfold all code blocks in the buffer, and zM to fold all code blocks.
 
-
 ❯ ecdsa
 
   . Seeding the random number generator... ok
@@ -184,7 +183,6 @@ You can also use zR to unfold all code blocks in the buffer, and zM to fold all 
   + Signature: 3035021900C22A2BF2946394DCBB3D5B3825793F8C9AAA6CDB72B97D4202181BABF48C12D9D9FB86AB5D60EAC2AE271D0E0064F5EA3D3D
   . Preparing verification context... ok
   . Verifying signature... ok
-
 
 -  how to connect to the internet 
 
